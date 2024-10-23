@@ -18,4 +18,8 @@
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/black</item>
     </style>
+
+    <style name="img_style">
+        <item name="tint">@color/black</item>
+    </style>
 </resources>

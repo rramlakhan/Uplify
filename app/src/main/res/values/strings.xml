@@ -11,4 +11,11 @@
     <string name="create_account">Create Account</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_in">SIGN IN</string>
+    <string name="arrow">arrow</string>
+    <string name="create_an_account_so_you_can_explore_n_new_things">Create an account so you can explore\nnew things</string>
+    <string name="your_name">Your Name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>
