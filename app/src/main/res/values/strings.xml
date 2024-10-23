@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="let_s_connect_n_with_each_other">Let\'s connect\nwith each other.</string>
+    <string name="please_create_an_account_to_n_continue">Please create an account to\ncontinue!</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="icon_google">icon_google</string>
+    <string name="or">or</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">SIGN IN</string>
 </resources>
