@@ -9,7 +9,7 @@
     tools:context=".SignUpActivity">
 
     <ImageView
-        android:id="@+id/ivBackArrow"
+        android:id="@+id/ivBackArrowSignUp"
         android:layout_width="@dimen/_15sdp"
         android:layout_height="@dimen/_15sdp"
         android:contentDescription="@string/arrow"
@@ -42,7 +42,7 @@
         android:layout_marginEnd="@dimen/_20sdp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etTextFullName"
+            android:id="@+id/etTextFullNameSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/your_name"
@@ -57,7 +57,7 @@
         android:layout_marginEnd="@dimen/_20sdp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etTextEmailAddress"
+            android:id="@+id/etTextEmailAddressSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_email"
@@ -73,7 +73,7 @@
         android:layout_marginEnd="@dimen/_20sdp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etTextPassword"
+            android:id="@+id/etTextPasswordSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_password"
@@ -89,7 +89,7 @@
         android:layout_marginEnd="@dimen/_20sdp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etTextConfirmPassword"
+            android:id="@+id/etTextConfirmPasswordSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/confirm_your_password"

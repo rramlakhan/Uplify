@@ -34,27 +34,27 @@ class SignUpActivity : AppCompatActivity() {
         firebaseAuth = Firebase.auth
         databaseReference = FirebaseDatabase.getInstance().getReference("users")
         
-        binding.ivBackArrow.setOnClickListener {
+        binding.ivBackArrowSignUp.setOnClickListener {
             val intent = Intent(applicationContext, WelcomeActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnSignUpSignUp.setOnClickListener {
-            val fullName = binding.etTextFullName.text.toString()
-            val email = binding.etTextEmailAddress.text.toString()
-            val password = binding.etTextPassword.text.toString()
-            val confirmPassword = binding.etTextConfirmPassword.text.toString()
+            val fullName = binding.etTextFullNameSignUp.text.toString()
+            val email = binding.etTextEmailAddressSignUp.text.toString()
+            val password = binding.etTextPasswordSignUp.text.toString()
+            val confirmPassword = binding.etTextConfirmPasswordSignUp.text.toString()
 
             if (fullName.isEmpty() && email.isEmpty() && password.isEmpty() && confirmPassword.isEmpty()) {
-                binding.etTextFullName.error = "Full Name is required"
-                binding.etTextEmailAddress.error = "Email Address is required"
-                binding.etTextPassword.error = "Password is required"
-                binding.etTextConfirmPassword.error = "Confirm Password is required"
+                binding.etTextFullNameSignUp.error = "Full Name is required"
+                binding.etTextEmailAddressSignUp.error = "Email Address is required"
+                binding.etTextPasswordSignUp.error = "Password is required"
+                binding.etTextConfirmPasswordSignUp.error = "Confirm Password is required"
             }
-            if (fullName.isEmpty()) binding.etTextFullName.error = "Full Name is required"
-            if (email.isEmpty()) binding.etTextEmailAddress.error = "Email Address is required"
-            if (password.isEmpty()) binding.etTextPassword.error = "Password is required"
-            if (confirmPassword.isEmpty()) binding.etTextConfirmPassword.error = "Confirm Password is required"
+            if (fullName.isEmpty()) binding.etTextFullNameSignUp.error = "Full Name is required"
+            if (email.isEmpty()) binding.etTextEmailAddressSignUp.error = "Email Address is required"
+            if (password.isEmpty()) binding.etTextPasswordSignUp.error = "Password is required"
+            if (confirmPassword.isEmpty()) binding.etTextConfirmPasswordSignUp.error = "Confirm Password is required"
 
             if (fullName.isNotEmpty() && email.isNotEmpty() && password.isNotEmpty() && confirmPassword.isNotEmpty()) {
                 if (password == confirmPassword) {
