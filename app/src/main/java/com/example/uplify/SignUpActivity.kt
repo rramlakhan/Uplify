@@ -37,6 +37,7 @@ class SignUpActivity : AppCompatActivity() {
         binding.ivBackArrowSignUp.setOnClickListener {
             val intent = Intent(applicationContext, WelcomeActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         binding.btnSignUpSignUp.setOnClickListener {
