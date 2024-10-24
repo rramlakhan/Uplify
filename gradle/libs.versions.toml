@@ -15,6 +15,9 @@ navigationUiKtx = "2.8.3"
 activity = "1.9.3"
 sdpAndroid = "1.1.1"
 sspAndroid = "1.1.1"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+firebaseDatabase = "21.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,8 +34,11 @@ androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 

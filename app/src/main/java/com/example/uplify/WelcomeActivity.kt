@@ -24,11 +24,13 @@ class WelcomeActivity : AppCompatActivity() {
         binding.btnCreateAccount.setOnClickListener {
             val intent = Intent(applicationContext, SignUpActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         binding.tvSignIn.setOnClickListener {
             val intent = Intent(applicationContext, SignInActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

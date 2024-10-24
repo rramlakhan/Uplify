@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "816603229206",
+    "project_id": "uplify-app",
+    "storage_bucket": "uplify-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816603229206:android:d95535b0adf34916611937",
+        "android_client_info": {
+          "package_name": "com.example.uplify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD05QDnTD_3r2CU-L4Nfzw4vbNXBJ-A5io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
